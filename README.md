@@ -84,7 +84,7 @@ git remote add origin https://github.com/YOUR-USERNAME/moodflix.git
 git push -u origin main
 ```
 
-Replace `YOUR-USERNAME` with your GitHub username. If Git says `remote origin already exists`, use `git remote set-url origin https://github.com/YOUR-USERNAME/moodflix.git`.
+
 
 ## Deploy online
 
