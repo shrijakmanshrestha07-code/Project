@@ -8,26 +8,6 @@ A responsive entertainment discovery website built with Next.js App Router, Type
 - VS Code (recommended)
 - Internet connection for live API results
 
-## Run on your Mac
-
-1. Extract the ZIP file.
-2. Open the `moodflix` folder in VS Code.
-3. Open **Terminal → New Terminal**.
-4. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-5. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-6. Open http://localhost:3000 in your browser.
-
-Stop the server with `Control + C`.
 
 ## Features
 
@@ -69,23 +49,5 @@ moodflix/
 - Browse: `https://api.tvmaze.com/shows?page=0`
 - Search: `https://api.tvmaze.com/search/shows?q=office`
 
-TVmaze data and image availability depend on the API. Some shows may not have poster images.
-
-## GitHub upload
-
-Create a new empty repository on GitHub. Then, in the project terminal:
-
-```bash
-git init
-git add .
-git commit -m "Build MoodFlix entertainment website"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/moodflix.git
-git push -u origin main
-```
 
 
-
-## Deploy online
-
-Push to GitHub, sign in to Vercel, import the repository, and deploy with the default Next.js settings. The live API needs an internet connection.
